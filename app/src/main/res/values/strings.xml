@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyStyleButtons</string>
+    <string name="DEFAULT">DEFAULT</string>
+    <string name="primary">PRIMARY</string>
+    <string name="info">INFO</string>
+    <string name="name">name</string>
+    <string name="lastName">lastname</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="back">BACK</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    style="@style/AppMyStyleButton"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.tamir.mystylebuttons.ColorsActivites.DefaultActivity">
+
+    <EditText
+        android:id="@+id/editTextName"
+        style="@style/AppMyStyleButton.TextStyle"
+        android:hint="@string/name" />
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        style="@style/AppMyStyleButton.TextStyle"
+        android:hint="@string/lastName" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        style="@style/AppMyStyleButton.TextStyle"
+        android:hint="@string/email" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        style="@style/AppMyStyleButton.TextStyle"
+        android:hint="@string/password" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="137dp"
+        android:layout_height="125dp"
+        android:src="@drawable/star" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:text="@string/back"/>
+
+</LinearLayout>
